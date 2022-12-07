@@ -451,7 +451,6 @@ public class MemberDAO {
 	public int memberScribe(String email)throws Exception{
 		String sql = "update member set scribedate = (select paydate from paymember where paymemberemail = ?) where email = ?";
 		try(Connection con = this.getConnection(); PreparedStatement pstat = con.prepareStatement(sql);) {
-			
 			pstat.setString(1, email);
 			pstat.setString(2, email);
 			int result = pstat.executeUpdate();
