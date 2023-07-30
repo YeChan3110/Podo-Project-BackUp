@@ -7,6 +7,7 @@
   <img src="https://user-images.githubusercontent.com/115390448/228555238-2fbd2d61-1902-44e2-8ce9-4438f5127c6b.png">
   <p align="center", font-size="10px"> 
      PODO MUSIC은 음악 스트리밍 기능을 구현한 사이트 입니다.<br>
+     https://github.com/YeChan3110/Podo-Project-BackUp
   </p>
 </p>
 <hr>
